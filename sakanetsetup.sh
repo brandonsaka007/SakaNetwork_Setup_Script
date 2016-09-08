@@ -24,11 +24,11 @@ pause 'Press [Enter] key to continue...'
 echo Starting................
 
 #apt-get installs
-#sudo apt-get update
-#sudo apt-get install vim ssh wget
+sudo apt-get update
+sudo apt-get install vim ssh wget
 
 #ssh setup
-#sudo service ssh restart
+sudo service ssh restart
 
 #Is 'brandon' a user?
 sudo cat /etc/passwd | grep home/brandon:/bin/bash | cut -d: -f1 > $isbrandonfile
@@ -63,7 +63,7 @@ then
   #server ip
 
 else
-echo 
+echo
 fi
 
 #display current server info
