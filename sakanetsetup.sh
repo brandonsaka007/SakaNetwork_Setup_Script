@@ -25,7 +25,7 @@ echo Starting................
 
 #apt-get installs
 sudo apt-get update
-sudo apt-get install vim ssh wget
+sudo apt-get install vim ssh wget htop
 
 #ssh setup
 sudo service ssh restart
